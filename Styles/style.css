@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared CSS */
+body{
+    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+}
+header{
+    margin: 0px 280px;
+}
+main{
+    margin: 0px 280px;
+}
+.Footer-container{
+    margin: 0px 280px;
+}
+
+/* Banner section CSS */
+
+.banner {
+    background-image: url(/B9A1-New-Year-New-Mission-main/resources/Banner-Image.png);
+    height: 600px;
+    width: 1870px;
+    background-repeat: no-repeat;   
+    margin-top: 50px;
+    
+}
+
+.banner-text-1{
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 180px;
+    margin: 0px 540px;
+}
+
+.banner-text-2{
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 14px;
+    margin-right: 550px;
+    text-align: center;
+}
+
+/* Holiday offer section CSS */
+
+.holiday-offer{
+    margin-top: 120px;
+}
+
+.holiday-offer h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.holiday-offer h5{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.holiday-offer h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+
+}
+
+.holiday-offer-img{
+    width: 803px;
+    height: 500px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+
+/* Midnight-party section CSS */
+
+
+.midnight-party-banner{
+    background-image: url(/B9A1-New-Year-New-Mission-main/resources/Vectorrr-edited.png);
+    height: 600px;
+    width: 1870px;
+    background-repeat: no-repeat;   
+    margin-top: 130px;
+}
+.midnight-banner-heading{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-left: 126px;
+    padding-top: 126px;
+}
+
+.midnight-banner-des{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 697px;
+    padding-left: 126px;
+    margin-top: 30px;
+}
+
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #F00;
+    border: none;
+    padding:15px 25px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 126px;
+    margin-top: 24px;
+}
+
+.btn-primary span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.btn-primary span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.btn-primary:hover span {
+    padding-right: 25px;
+  }
+  
+.btn-primary:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.btn-primary:hover {
+    background-color: #d81414
+}
+
+/* event timing section CSS */
+
+.event{
+    height: 482px;
+    width: 1320px;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(255, 212, 212));
+    margin-top: 120px ;
+}
+
+.event-timing-place{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+}
+.event-timing-place span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.event-timing-date{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.event-timing-date span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.event-timing-time{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.event-timing-time span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.event .btn-primary {
+    margin-left: 580px;
+}
+
+
+
+/* comming soon section CSS */
+
+.comming-soon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.comming-soon-left{
+    margin-top: 130px;
+}
+
+.comming-soon-left h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+}
+.comming-soon-left h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.comming-soon-left p{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-top: 22px;
+}
+.comming-soon-middle{
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.comming-soon-middle:hover{
+    border:16px solid #F00;
+    transition: 0.1s;
+}
+
+.comming-soon-middle img{
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+.comming-soon-right{
+    margin-top: 130px;
+}
+
+.comming-soon-right h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.comming-soon-right p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-top: 16px;
+}
+.comming-soon-right img{
+    margin-top: 40px;
+}
+
+/* holoday sale section CSS */
+
+.holiday-sale-details{
+ margin-top: 120px;
+}
+
+.holiday-sale-details h5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-sale-details h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+.holiday-sale-details h1 span{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale-details p{
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.holiday-images{
+    padding-top: 70px;
+}
+
+.holiday-sale-img1{
+    width: 680px;
+    position: absolute;
+    top: 4010px;
+}
+
+.holiday-sale-img2{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    right: 600px;
+    top: 3990px;
+}
+
+.holiday-sale-img3{
+    width: 429px;
+    height: 433px;
+    position: absolute;
+    margin-left: 891px;
+    top: 3913px;
+}
+
+.holiday-sale-background{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    position: relative;
+    margin-top: 433px;
+}
+
+/* portfolio section CSS */
+
+.portfolio-details{
+    margin-top: 120px;
+}
+
+.portfolio-details h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.portfolio-details h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+.portfolio-details p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    margin-top: 22px;
+    line-height: 32px; /* 160% */
+}
+.portfolio-img-row-1{
+    margin-top: 48px;
+}
+
+.portfolio-img1:hover{
+    border: 2px solid red;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.portfolio-img2{
+    margin: 0px 24px;
+}
+.portfolio-img2:hover{
+    border: 2px solid red;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.portfolio-img3:hover{
+    border: 2px solid red;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.portfolio-img-row-2{
+    margin-top: 24px;
+    
+}
+
+.portfolio-img4:hover{
+    border: 2px solid red;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.portfolio-img5{
+    margin: 0px 24px;
+}
+.portfolio-img5:hover{
+    border: 2px solid red;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.portfolio-img6:hover{
+    border: 2px solid red;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+/* Newsletter section CSS */
+
+.newsletter{
+    width: 1320px;
+    height: 550px;
+    border-radius: 16px;
+    margin-top: 120px;
+    padding-top: 80px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-img{
+    margin-left: 585px;
+}
+
+.newsletter h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.newsletter p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin: 0px auto;
+    margin-top: 22px;
+}
+
+.newsletter-input{
+    margin-left: 300px;
+    margin-top: 48px;
+}
+
+.newsletter-input-email{
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    
+}
+
+.newsletter-input-btn{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00; 
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: absolute;
+     
+}
+
+.newsletter-input-btn:hover {
+    background-color: rgb(255, 139, 139);
+    color: #FFF;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+/* Footer section CSS */
+
+.footer-background{
+    width: 100%;
+    height: 609px;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.footer-text-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.footer-text{
+    color: #FFF;
+    width: 375px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-contact-1{
+    display: flex;
+}
+
+.footer-contact-1 h6{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 16px;
+}
+
+.footer-contact-2{
+    display: flex;
+    margin-top: 8px;
+}
+
+.footer-contact-2 h6{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 16px;
+}
+
+.social-media{
+    padding: 50px 0px;
+}
+
+.social-media hr {
+
+}
+
+.social-media-icons{
+    text-align: center;
+    padding: 48px 0px;
+}
+
+.social-media-icons-2{
+    padding: 0px 24px;
+}
+
+.social-media-icons-4{
+    padding-left: 24px;
+}
+
+.All-rights-reserved{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
